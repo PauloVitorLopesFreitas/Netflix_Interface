@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="utf-8">        
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style/style.css">
+
+    <!--responsividade-->    
+    <link rel="stylesheet" href="style/reponsive.css"> 
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/Owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/Owl/owl.theme.default.min.css">
+
+  </head>
+  
+  <body>
+    
+    <header>      
+      <div class="container">
+        <h2 id="logo"><a href="#netflix">NETFLIX</a></h2>
+
+        <nav>
+          <ul>            
+            <li id="menu-mobile">
+              <a id="btNavegar">Navegar</a>
+              <ul id="menu-mobile-list" class="menu-hidden">              
+                <li class="item-menu-hidden"><a href="#">Início</a></li>          
+                <li class="item-menu-hidden"><a href="#">Séries</a></li>          
+                <li class="item-menu-hidden"><a href="#">Filmes</a></li>          
+                <li class="item-menu-hidden"><a href="#">Destaques</a></li>          
+                <li class="item-menu-hidden"><a href="#">Favoritos</a></li>                  
+              </ul>
+            </li>        
+          </ul>
+        </nav>          
+
+        <nav id="menu-top">        
+          <a href="#inicio">Início</a>  
+          <a href="#series">Séries</a>
+          <a href="#filmes">Filmes</a> 
+          <a href="#destaque">Destaques</a>
+          <a href="#lista">Favoritos</a>         
+        </nav>      
+        
+        <!-- <button id="bt-search"></button>
+        <button id="bt-alert"></button>
+        <button id="bt-perfil"></button>
+        <button id="bt-detalhes"></button> -->
+        
+      </div>
+      
+    </header>
+
+    <main>
+      <div class="filme-principal">
+        <div class="container">
+          <h3 class="titulo">RAGNAROK</h3>
+          <p class="descricao">
+            Em uma cidade norueguesa envenenada pela poluição e abalada por geleiras derretendo,
+            o fim dos tempos parece real. Só uma lenda poderá combater um mal antigo.
+          </p>
+          <div class="botoes">
+            <button role="button" class="botao"><i class="fas fa-play"></i>Assistir</button>
+            <button role="button" class="botao"><i class="fas fa-info-circle"></i>Mais informações</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <div class="filmes-carousel">
+      <div class="container">
+        <h4 class="subtitulo">Minha lista</h4>
+        <div class="owl-carousel owl-theme">
+          <div class="item"><img class="box-filme" src="img/mini1.jpg"></div>
+          <div class="item"><img class="box-filme" src="img/mini2.jpg"></div>
+          <div class="item"><img class="box-filme" src="img/mini3.jpg"></div>
+          <div class="item"><img class="box-filme" src="img/mini4.jpg"></div>
+          <div class="item"><img class="box-filme" src="img/mini5.jpg"></div>
+          <div class="item"><img class="box-filme" src="img/mini6.jpg"></div>
+          <div class="item"><img class="box-filme" src="img/mini7.jpg"></div>
+          <div class="item"><img class="box-filme" src="img/mini8.jpg"></div>
+          <div class="item"><img class="box-filme" src="img/mini9.jpg"></div>
+          <div class="item"><img class="box-filme" src="img/mini10.jpg"></div>        
+        </div>
+      </div>
+
+      <div class="container ">
+        <h4 class="subtitulo">Top 10 no Brasil hoje</h4>
+        
+        <!--Teste de rank sem utilizar svg-->
+        <div class="owl-carousel owl-theme box-top">                    
+          <div class="item-top">
+            <span class="rank-number">1</span>            
+            <img class="box-top" src="img/top1.jpg">
+          </div>
+          <div class="item-top">
+            <span class="rank-number">2</span>
+            <img class="box-top" src="img/top2.jpg">
+          </div>
+          <div class="item-top">
+            <span class="rank-number">3</span>
+            <img class="box-top" src="img/top3.jpg">
+          </div>
+          <div class="item-top">
+            <span class="rank-number">4</span>
+            <img class="box-top" src="img/top4.jpg">
+          </div>
+          <div class="item-top">
+            <span class="rank-number">5</span>
+            <img class="box-top" src="img/top5.jpg">
+          </div>
+          <div class="item-top">
+            <span class="rank-number">6</span>
+            <img class="box-top" src="img/top6.jpg">
+          </div>
+          <div class="item-top">
+            <span class="rank-number">7</span>
+            <img class="box-top" src="img/top7.jpg">
+          </div>
+          <div class="item-top">
+            <span class="rank-number">8</span>
+            <img class="box-top" src="img/top8.jpg">
+            </div>
+          <div class="item-top">
+            <span class="rank-number">9</span>
+            <img class="box-top" src="img/top9.jpg">
+            </div>
+          <div class="item-top">
+            <span class="rank-number rank-number10">10</span>
+            <img class="box-top" src="img/top10.jpg">
+          </div>        
+        </div>
+      </div>        
+
+      <div class="container">
+        <h4 class="subtitulo">Séries japonesas de anime</h4>
+        <div class="owl-carousel owl-theme">
+          <div class="item"><img class="box-filme" src="img/mini1.jpg"></div>
+          <div class="item"><img class="box-filme" src="img/mini2.jpg"></div>
+          <div class="item"><img class="box-filme" src="img/mini3.jpg"></div>
+          <div class="item"><img class="box-filme" src="img/mini4.jpg"></div>
+          <div class="item"><img class="box-filme" src="img/mini5.jpg"></div>
+          <div class="item"><img class="box-filme" src="img/mini6.jpg"></div>
+          <div class="item"><img class="box-filme" src="img/mini7.jpg"></div>
+          <div class="item"><img class="box-filme" src="img/mini8.jpg"></div>
+          <div class="item"><img class="box-filme" src="img/mini9.jpg"></div>
+          <div class="item"><img class="box-filme" src="img/mini10.jpg"></div>        
+        </div>
+      </div>
+
+      <div class="container">
+        <h4 class="subtitulo">Originais Netflix</h4>
+        <div class="owl-carousel owl-theme">
+          <div class="item"><img class="item-original" src="img/original1.jpg"></div>
+          <div class="item"><img class="item-original" src="img/original2.jpg"></div>
+          <div class="item"><img class="item-original" src="img/original3.jpg"></div>
+          <div class="item"><img class="item-original" src="img/original4.jpg"></div>
+          <div class="item"><img class="item-original" src="img/original5.jpg"></div>
+          <div class="item"><img class="item-original" src="img/original6.jpg"></div>
+          <div class="item"><img class="item-original" src="img/original7.jpg"></div>
+          <div class="item"><img class="item-original" src="img/original8.jpg"></div>
+          <div class="item"><img class="item-original" src="img/original9.jpg"></div>
+          <div class="item"><img class="item-original" src="img/original10.jpg"></div>  
+        </div>
+      </div>
+  
+    </div>
+    
+    <footer>
+      <div class="container">        
+
+        <div class="group-footer">
+          <ul>          
+            <li><a href="#">Idioma e legendas</a></li>
+            <li><a href="#">Impresa</a></li>
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="#">Entre em contato</a></li>            
+          </ul>          
+        </div>
+
+        <div class="group-footer">  
+          <ul>
+            <li><a href="#">Audiodescrição</a></li>
+            <li><a href="#">Relações com investidores</a></li>
+            <li><a href="#">Avisos legais</a></li>          
+          </ul>
+        </div>
+          
+        <div class="group-footer">  
+          <ul>
+            <li><a href="#">Centro de ajuda</a></li>
+            <li><a href="#">Carreiras</a></li>
+            <li><a href="#">Preferências de cookies</a></li>          
+          </ul>
+        </div>        
+
+        <div class="group-footer">  
+          <ul>
+            <li><a href="#">Cartão pré-pago</a></li>
+            <li><a href="#">Termos de uso</a></li>
+            <li><a href="#">Informações corporativas</a></li>          
+          </ul>
+        </div>        
+        
+      </div>
+      
+      <div class="info-adicional">
+        <button role="button" type="button">Código de serviço</button>
+        <p>1997-2021 Netflix, Inc. {00000-00000-00000-00000-0000-00000}</p>
+      </div>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/c657a86299.js" crossorigin="anonymous"></script>    
+    <script type="text/javascript" src="js/Owl/jquery.min.js"></script>
+    <script type="text/javascript" src="js/Owl/owl.carousel.min.js"></script>    
+    <script type="text/javascript" src="js/script.js"></script>        
+
+  </body>
+  
+</html> 

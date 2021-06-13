@@ -1,0 +1,98 @@
+@media screen and (max-width:1470px) {
+  .rank-number {
+    font-size: 150px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .rank-number {
+    font-size: 120px; 
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .descricao {
+    width: 50%;    
+  }
+  .filme-principal .subtitulo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 795px) {
+  header #btNavegar {
+    display: none;    
+  }
+}
+
+@media screen and (max-width: 795px) {
+  header .container #logo {
+    margin-left: 0;
+    margin-right: 50px;    
+  }
+
+  header .container {    
+    height: 50px;            
+  }  
+
+  header #menu-top {
+    display: none;
+  }
+
+  header #botao-mobile {
+    display: block;    
+  }
+
+  .filme-principal .titulo {    
+    margin-top: 200px;
+  }
+
+  .descricao {
+    margin-bottom: 20px;
+  }
+
+  .filme-principal .subtitulo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .container .subtitulo {
+    margin-top: 30px;
+  } 
+  
+  .botao {
+    width: 182px;
+    font-size: 12px;
+    display: flex;
+    margin-top: 5px;
+  }
+
+  footer .group-footer {
+    padding: 0;
+    margin-left: 20px;    
+  }
+  
+  footer .group-footer li {
+    padding: 1;    
+  }
+
+  footer .group-footer a {
+    font-size: 12px;
+  }
+
+  footer .info-adicional {
+    margin-top: 10px;    
+  }
+}
+
+@media screen  and (max-width:599px) {
+  .rank-number {
+    font-size: 150px;
+  }
+
+  .filme-principal .subtitulo {
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+}
